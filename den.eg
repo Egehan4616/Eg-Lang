@@ -1,0 +1,40 @@
+EG_start:
+
+event.input :d,isimin ?:
+
+if :&d,!=,ege
+print: &d isimin guzelmis
+if.end()
+
+if :&d,=,ege
+print: guzel
+if.end()
+
+Loop.Start
+
+print: sellam
+event.input :b,bir sey soyle :
+
+if :&b,==,naber
+print: senden naber
+if.end()
+
+if :&b,==,nabere oyle cevap verilmez mal
+
+print: yoo verilir salak
+event.eg.sleep :1
+
+print: sen simdi gor
+Loop.Break
+
+if.end()
+
+if :&b,==,kapat
+Loop.Break
+
+if.end()
+
+Loop.Reolad
+
+print: dongu bitti
+eg_STOP
