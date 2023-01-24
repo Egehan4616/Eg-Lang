@@ -1,0 +1,5 @@
+FUN yaz(yazdir)
+	PRINT(yazdir)
+END
+/ SDSAD 
+yaz("helk")

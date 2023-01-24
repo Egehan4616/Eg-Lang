@@ -1,0 +1,10 @@
+PRINT("HELLO WORLD")
+VAR a = "helllooo "
+PRINT(a)
+FUN YAZ(yazdir)
+PRINT(yazdir)
+END
+
+
+YAZ("VastSea")
+YAZ(a)

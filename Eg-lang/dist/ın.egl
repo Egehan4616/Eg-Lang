@@ -1,0 +1,4 @@
+VAR A = "a"
+IF A != "a" THEN 
+	PRINT("OLDU")
+END
